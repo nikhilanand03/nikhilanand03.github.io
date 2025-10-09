@@ -8,7 +8,7 @@ var documents = [{
     "id": 1,
     "url": "http://localhost:4000/about",
     "title": "",
-    "body": "   Hi! I'm Nikhil, a student at IIT Madras. I'm interested in AI Research, and I was fortunate to do an internship at Adobe Research in 2024 in the NLP team. I will join full-time as a Research Associate in 2025.   I'm doing my undergrad at IIT Madras (BTech in Bioengineering and MTech in Data Science). During my internship at Adobe Research, I worked on using the internal states of LLMs to make them more faithful to the provided context, which I will be continuing for my final year thesis.   In my free time, I love to read, play the guitar, and sing. I also play tennis and swim.                      "
+    "body": "   Hi! I'm Nikhil, currently working at Adobe Research as a Research Associate. My work focuses on agentic workflows and interpretability methods that make AI systems more transparent and reliable.  I graduated from IIT Madras (BTech in Bioengineering and MTech in Data Science), where my thesis and internship at Adobe focused on improving context faithfulness in LLMs by leveraging their internal representations.  Outside research, I write about AI on Medium and on my Substack publication, AI Made Easy, where I turn complex AI ideas into stories people actually get — using intuitive visuals and simple explanations to make advanced concepts more accessible.  In my free time, I love reading, playing the guitar, and singing. I also enjoy tennis and swimming.             LinkedIn   X   GitHub   Medium   Substack      "
     }, {
     "id": 2,
     "url": "http://localhost:4000/blogs",
