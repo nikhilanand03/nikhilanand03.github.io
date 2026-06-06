@@ -207,8 +207,8 @@ comments: false
   .resume-header {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    gap: 2rem;
+    align-items: center;
+    gap: 2.5rem;
     margin-bottom: 1.25rem;
   }
   .resume-header-text { flex: 1; min-width: 0; }
@@ -229,11 +229,11 @@ comments: false
   }
   .resume-contact a { margin: 0 0.15rem; }
   .resume-header-photo {
-    flex: 0 0 180px;
+    flex: 0 0 240px;
   }
   .resume-header-photo img {
-    width: 180px;
-    height: 180px;
+    width: 240px;
+    height: 240px;
     object-fit: cover;
     border-radius: 6px;
     display: block;
