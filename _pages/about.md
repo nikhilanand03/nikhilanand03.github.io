@@ -4,140 +4,363 @@ permalink: /about
 comments: false
 ---
 
-<div class="row justify-content-between">
-  <div class="col-md-8 pr-5">
-    <p class="custom-text">Hi! I'm Nikhil, currently working at <a href="https://research.adobe.com/" target="_blank">Adobe Research</a> as a Research Associate. My work focuses on agentic workflows and interpretability methods that make AI systems more transparent and reliable.</p> <p class="custom-text">I graduated from <a href="https://www.iitm.ac.in/" target="_blank">IIT Madras</a> (BTech in Bioengineering and MTech in Data Science), where my thesis and internship at Adobe focused on improving context faithfulness in LLMs by leveraging their internal representations.</p> <p class="custom-text">Outside research, I write about AI on <a href="https://medium.com/@nikhilanandnj" target="_blank">Medium</a> and on my Substack publication, <a href="https://nikhilanand03.substack.com" target="_blank"><i>AI Made Easy</i></a>, where I turn complex AI ideas into stories people actually get — using intuitive visuals and simple explanations to make advanced concepts more accessible.</p> <p class="custom-text">In my free time, I love reading, playing the guitar, and <a href="https://www.instagram.com/nikhilanand_music/" target="_blank">singing</a>. I also enjoy tennis and swimming.</p>
-    <!-- <p class="custom-text">Hi! I'm Nikhil, a student at IIT Madras. I'm interested in AI Research, and I was fortunate to do an internship at  <a href="https://research.adobe.com/" target="_blank">Adobe Research</a> in 2024 in the NLP team. I will join full-time as a Research Associate in 2025.</p>
-    <p class="custom-text">I'm doing my undergrad at <a href="https://www.iitm.ac.in/" target="_blank">IIT Madras</a> (BTech in Bioengineering and MTech in Data Science). During my internship at Adobe Research, I worked on using the internal states of LLMs to make them more faithful to the provided context, which I will be continuing for my final year thesis.</p>
-    <p class="custom-text">In my free time, I love to read, play the guitar, and <a href="https://www.instagram.com/nikhilanand_music/" target="_blank">sing</a>. I also play tennis and swim.</p> -->
-  </div>
-  
-  <div class="col-md-4">
-    <img src="assets/images/pp_canada.jpeg" alt="Nikhil Anand" class="img-fluid">
-    <div class="social-links mt-3 text-center">
-     <a href="https://www.linkedin.com/in/nikhilanand1303/" target="_blank" class="tooltip-link linkedin-tooltip"><img src="assets/images/icons/linkedin-icon.svg" alt="LinkedIn" style="width: 2.5rem; height: 2.5rem;"><span class="tooltip-text">LinkedIn</span></a>
-     <a href="https://twitter.com/nikhilanand003" target="_blank" class="tooltip-link"><img src="assets/images/icons/x-icon.svg" alt="X" style="width: 2.5rem; height: 2.5rem;"><span class="tooltip-text">X </span></a>
-     <a href="https://github.com/nikhilanand03" target="_blank" class="tooltip-link"><img src="assets/images/icons/github-icon.svg" alt="GitHub" style="width: 2.5rem; height: 2.5rem;"><span class="tooltip-text">GitHub</span></a>
-     <a href="https://medium.com/@nikhilanandnj" target="_blank" class="tooltip-link"><img src="assets/images/icons/medium-icon.svg" alt="Medium" style="width: 2.5rem; height: 2.5rem;"><span class="tooltip-text">Medium</span></a>
-     <a href="https://nikhilanand03.substack.com" target="_blank" class="tooltip-link substack-tooltip"><img src="assets/images/icons/substack-icon.svg" alt="Substack" style="width: 2.5rem; height: 2.5rem;"><span class="tooltip-text">Substack</span></a>
-    <!-- <a href="mailto:nikhilanandnj@gmail.com"><i class="fas fa-envelope"></i></a> -->
-  </div>
+<div class="resume">
 
+<header class="resume-header">
+  <div class="resume-header-text">
+    <h1 class="resume-name">Nikhil Anand</h1>
+    <p class="resume-intro">
+      I am an AI Researcher at <a href="https://research.adobe.com/" target="_blank">Adobe Research</a>, working on agentic evals and interpretability methods that make AI systems more reliable.
+    </p>
+    <p class="resume-intro">
+      I graduated from <a href="https://www.iitm.ac.in/" target="_blank">IIT Madras</a> with a dual degree (BTech in Bioengineering, MTech in Data Science), where my thesis, born out of an internship at Adobe, focused on improving context faithfulness in LLMs through their internal representations.
+    </p>
+    <p class="resume-intro">
+      Outside research, I write about AI on <a href="https://medium.com/@nikhilanandnj" target="_blank">Medium</a> and on my Substack publication, <a href="https://nikhilanand03.substack.com" target="_blank"><i>AI Made Easy</i></a>, turning hard ideas into intuitive visuals and stories. In my free time I read, play the guitar, <a href="https://www.instagram.com/nikhilanand_music/" target="_blank">sing</a>, and play tennis.
+    </p>
+    <nav class="resume-contact">
+      <a href="mailto:nikhilanandnj@gmail.com">email</a> /
+      <a href="https://scholar.google.com/citations?user=ed51SrUAAAAJ&hl=en" target="_blank">scholar</a> /
+      <a href="https://www.linkedin.com/in/nikhilanand1303/" target="_blank">linkedin</a> /
+      <a href="https://github.com/nikhilanand03" target="_blank">github</a> /
+      <a href="https://twitter.com/nikhilanand003" target="_blank">twitter</a> /
+      <a href="https://medium.com/@nikhilanandnj" target="_blank">medium</a> /
+      <a href="https://nikhilanand03.substack.com" target="_blank">substack</a>
+    </nav>
   </div>
+  <div class="resume-header-photo">
+    <img src="{{ site.baseurl }}/assets/images/pp_canada.jpeg" alt="Nikhil Anand">
+  </div>
+</header>
 
-  
-  
+<hr class="resume-divider">
+
+<section class="resume-section" id="news">
+<h2>News</h2>
+<ul class="resume-news">
+  <li><span class="news-date">Jan 2026</span> <span class="news-tag">[Paper]</span> Our paper <em>ContextFocus: Activation Steering for Contextual Faithfulness in LLMs</em> is out on <a href="https://arxiv.org/abs/2601.04131" target="_blank">arXiv</a>.</li>
+  <li><span class="news-date">Jan 2026</span> <span class="news-tag">[Project]</span> Launched <a href="https://papervideo.vercel.app/" target="_blank">PaperVideo</a>: turn any research paper into a narrated animated walkthrough.</li>
+  <li><span class="news-date">Jun 2025</span> <span class="news-tag">[Role]</span> Joined <a href="https://research.adobe.com/" target="_blank">Adobe Research</a> full-time as an AI Researcher in Bengaluru.</li>
+  <li><span class="news-date">May 2025</span> <span class="news-tag">[Degree]</span> Graduated from <a href="https://www.iitm.ac.in/" target="_blank">IIT Madras</a> with a Dual Degree (BTech + MTech), second in my class.</li>
+  <li><span class="news-date">Sep 2024</span> <span class="news-tag">[Patent]</span> Filed a patent at the USPTO based on internship work on contextual faithfulness in LLMs.</li>
+  <li><span class="news-date">Jun 2024</span> <span class="news-tag">[Internship]</span> Started a research internship at <a href="https://research.adobe.com/" target="_blank">Adobe Research</a>.</li>
+  <li><span class="news-date">Dec 2023</span> <span class="news-tag">[Award]</span> Bronze medal at Inter IIT Tech Meet 12.0 (Adobe&rsquo;s Behaviour and Content Simulation track).</li>
+  <li><span class="news-date">Aug 2023</span> <span class="news-tag">[Fellowship]</span> Completed the MITACS Globalink research fellowship at the University of Toronto / Sunnybrook Health Sciences Centre.</li>
+</ul>
+</section>
+
+<hr class="resume-divider">
+
+<section class="resume-section" id="publications">
+<h2>Publications</h2>
+
+<div class="pub-item">
+  <div class="pub-thumb">
+    <img src="{{ site.baseurl }}/assets/images/contextfocus.png" alt="ContextFocus">
+  </div>
+  <div class="pub-text">
+    <p class="pub-title"><a href="https://arxiv.org/abs/2601.04131" target="_blank">ContextFocus: Activation Steering for Contextual Faithfulness in Large Language Models</a></p>
+    <p class="pub-authors"><strong>Nikhil Anand</strong>, Shwetha Somasundaram, Anirudh Phukan, Apoorv Saxena, Koyel Mukherjee</p>
+    <p class="pub-venue"><em>arXiv preprint, 2026</em></p>
+    <p class="pub-abstract">A lightweight activation-steering method that improves how LLMs follow externally provided context when it conflicts with parametric knowledge. Minimal inference-time overhead, ~95% cheaper than finetuning while remaining interpretable. Evaluated on Llama and Mistral; improves faithfulness by up to 24% over ContextDPO and COIECD on the ConFiQA benchmark.</p>
+    <p class="pub-links"><a href="https://arxiv.org/abs/2601.04131" target="_blank">paper</a> / <a href="https://github.com/nikhilanand03/context-steering" target="_blank">code</a> / <a href="https://open.substack.com/pub/makingaieasy/p/when-retrieval-isnt-enough-steering" target="_blank">blog</a></p>
+  </div>
+</div>
+
+</section>
+
+<hr class="resume-divider">
+
+<section class="resume-section" id="experience">
+<h2>Experience</h2>
+
+<div class="exp-item">
+  <p class="exp-headline"><strong>AI Researcher</strong>, <a href="https://research.adobe.com/" target="_blank">Adobe Research</a> <span class="exp-meta">&middot; Bengaluru, India &middot; Jun 2025 &ndash; Present</span></p>
+  <p class="exp-body">Working on evals for AI agents. Focused on making model behaviour more transparent, controllable, and reliable in production settings.</p>
+</div>
+
+<div class="exp-item">
+  <p class="exp-headline"><strong>Research Intern</strong>, <a href="https://research.adobe.com/" target="_blank">Adobe Research</a> <span class="exp-meta">&middot; Bengaluru, India &middot; Jun 2024 &ndash; Sep 2024</span></p>
+  <p class="exp-body">Improved LLM faithfulness to provided context by up to 24% on Llama, Mistral, and Gemma using activation steering. Filed a patent at the USPTO and received a Pre-Placement Offer. </p>
+</div>
+
+<div class="exp-item">
+  <p class="exp-headline"><strong>MITACS Globalink Research Intern</strong>, Lin Brain Lab, Sunnybrook Health Sciences Centre / <a href="https://www.utoronto.ca/" target="_blank">University of Toronto</a> <span class="exp-meta">&middot; Toronto, Canada &middot; May 2023 &ndash; Aug 2023</span></p>
+  <p class="exp-body">Built predictive models for brain age from EEG, fMRI, and structural MRI features (a biomarker correlated with several neurological diseases).</p>
+</div>
+
+<div class="exp-item">
+  <p class="exp-headline"><strong>Research Intern</strong>, <a href="https://www.ncbs.res.in/" target="_blank">National Centre for Biological Sciences (NCBS)</a> <span class="exp-meta">&middot; Bengaluru, India &middot; Nov 2022 &ndash; Feb 2023</span></p>
+  <p class="exp-body">Replaced a Monte-Carlo sampling pipeline for protein-complex structure prediction with a reinforcement-learning-based approach, with applications to identifying potential drug interactions.</p>
+</div>
+
+<div class="exp-item">
+  <p class="exp-headline"><strong>Software Developer</strong>, <a href="https://www.desklamp.io/" target="_blank">Desklamp</a> (Y Combinator W23) <span class="exp-meta">&middot; Chennai, India &middot; May 2022 &ndash; Dec 2022</span></p>
+  <p class="exp-body">Built the mobile PWA from the ground up using <code>PDF.js</code> and React &mdash; immersive home screen, custom PDF viewer with zoom/find, and an inline formattable text notebook.</p>
+</div>
+
+</section>
+
+<hr class="resume-divider">
+
+<section class="resume-section" id="projects">
+<h2>Projects</h2>
+
+<div class="exp-item">
+  <p class="exp-headline"><strong>PaperVideo</strong> (<a href="https://papervideo.vercel.app/" target="_blank">demo</a>, <a href="https://github.com/nikhilanand03/paper-video" target="_blank">code</a>) <span class="exp-meta">&middot; 2026</span></p>
+  <p class="exp-body">A tool that turns any research paper into a short, narrated animated walkthrough, built to make paper comprehension faster. Converts arXiv PDFs into a video script, generates the animations frame-by-frame, and stitches them together with narration.</p>
+</div>
+
+<div class="exp-item">
+  <p class="exp-headline"><strong>Behaviour and Content Simulation</strong> (<a href="https://github.com/nikhilanand03/AdobeInterIITTech" target="_blank">code</a>) <span class="exp-meta">&middot; Adobe Problem Statement, Inter IIT Tech Meet 12.0 &middot; Nov 2023 &ndash; Dec 2023</span></p>
+  <p class="exp-body">Predicted a tweet&rsquo;s like-count from its content, author, and date, and generated tweet content given the like-count, date, and author. Our team secured the Bronze Medal among 23 IITs.</p>
+</div>
+
+<div class="exp-item">
+  <p class="exp-headline"><strong>Brain Age Prediction from Neuroimaging</strong> <span class="exp-meta">&middot; MITACS Globalink, Lin Brain Lab (University of Toronto) &middot; May 2023 &ndash; Aug 2023</span></p>
+  <p class="exp-body">Built multi-modal predictive models combining EEG, fMRI, and structural-MRI features to estimate biological brain age, a biomarker tied to neurological disease progression.</p>
+</div>
+
+</section>
+
+<hr class="resume-divider">
+
+<section class="resume-section" id="writing">
+<h2>Writing</h2>
+<p class="writing-intro">I write about AI, including areas like mechanistic interpretability, deep learning, and RAG, on <a href="https://medium.com/@nikhilanandnj" target="_blank">Medium</a> and on my Substack publication <a href="https://nikhilanand03.substack.com" target="_blank"><em>AI Made Easy</em></a>. A few pieces I&rsquo;m proud of:</p>
+<ul class="writing-list">
+  <li><strong><a href="https://medium.com/@nikhilanandnj" target="_blank">A friendly guide to linear algebra for AI</a></strong>. The linear-algebra primer I wish I&rsquo;d had in school.</li>
+  <li><strong><a href="https://open.substack.com/pub/makingaieasy/p/your-one-stop-guide-to-modern-ai" target="_blank">A comprehensive guide to AI</a></strong>. A single piece that organises all my work in one place.</li>
+  <li><strong><a href="https://medium.com/ai-advances/this-simple-ml-concept-helped-anthropic-map-claudes-entire-brain-cd8c8ba2b519" target="_blank">Anthropic&rsquo;s circuit tracing technique</a></strong>. Sparsity, transcoders, and the interpretability work behind tracing Claude&rsquo;s thoughts.</li>
+</ul>
+</section>
+
+<hr class="resume-divider">
+
+<section class="resume-section" id="extracurriculars">
+<h2>Extracurriculars</h2>
+
+<div class="extra-item">
+  <p class="extra-headline"><strong>Head, Electronics Club</strong>, <a href="https://cfi.iitm.ac.in/" target="_blank">Centre For Innovation (CFI)</a>, IIT Madras <span class="exp-meta">&middot; Apr 2022 &ndash; Apr 2023</span></p>
+  <p class="extra-body">Co-led a managerial team of 10 coordinators and ~40 undergraduates running 10+ multidisciplinary projects across IoT, PCB design, and ML; plus campus-wide sessions and events. (Coordinator the year prior, May 2021 &ndash; Apr 2022.)</p>
+</div>
+
+<div class="extra-item">
+  <p class="extra-headline"><strong>Music Contingent (Vocals)</strong>, IIT Madras</p>
+  <p class="extra-body">Sang with the institute music contingent through my final year; it expanded my worldview of what music was in a way that&rsquo;s hard to describe. Some of it lives on <a href="https://www.instagram.com/nikhilanand_music/" target="_blank">Instagram</a>.</p>
+</div>
+
+</section>
+
+<hr class="resume-divider">
+
+<section class="resume-section" id="education">
+<h2>Education</h2>
+
+<div class="edu-item">
+  <p class="edu-headline"><strong><a href="https://www.iitm.ac.in/" target="_blank">Indian Institute of Technology, Madras</a></strong> <span class="exp-meta">&middot; 2020 &ndash; 2025</span></p>
+  <p class="edu-body">Dual Degree (BTech in Biological Engineering + MTech in Data Science). CGPA 9.50 (2nd in class). Music Contingent (Vocals), Institute Tennis Team.</p>
+</div>
+
+</section>
+
 </div>
 
 <style>
-  .custom-text {
-    font-size: 1.25rem;
-    /* font-family: 'Arial', sans-serif; */
-    font-family: 'Georgia', serif;
-    line-height: 1.6;
+  /* ===== Kill nav-related spacing now that the navbar is removed ===== */
+  .site-content.no-nav {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
   }
-  .social-links a {
-    font-size: 2rem;
-    margin-right: 15px;
-    color: #333;
+  section { margin-bottom: 0 !important; }
+
+  /* ===== Resume page layout ===== */
+  .resume {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 2rem 0 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #1a1a1a;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+
+  .resume a {
+    color: #0a66c2;
     text-decoration: none;
   }
-
-  .social-links a:hover {
-    color: #007bff;
+  .resume a:hover {
+    text-decoration: underline;
+    color: #0a66c2;
   }
 
-  .social-links a img:hover {
-    transform: scale(1.3);
-    transition: transform 0.2s ease;
+  .resume h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+    letter-spacing: -0.01em;
   }
 
-  /* Custom tooltip styles */
-  .tooltip-link {
-    position: relative;
-    display: inline-block;
-  }
+  .resume p { margin: 0 0 0.6rem; }
 
-  .tooltip-text {
-    visibility: hidden;
-    width: auto;
-    min-width: 60px;
-    background-color: transparent;
-    color: #000;
-    text-align: center;
-    border: 2px solid #000;
+  /* ===== Header ===== */
+  .resume-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 1.25rem;
+  }
+  .resume-header-text { flex: 1; min-width: 0; }
+  .resume-name {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin: 0 0 0.75rem;
+    letter-spacing: -0.02em;
+  }
+  .resume-intro {
+    font-size: 1.05rem;
+    margin: 0 0 0.75rem;
+  }
+  .resume-contact {
+    margin-top: 0.75rem;
+    font-size: 0.98rem;
+    color: #444;
+  }
+  .resume-contact a { margin: 0 0.15rem; }
+  .resume-header-photo {
+    flex: 0 0 180px;
+  }
+  .resume-header-photo img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
     border-radius: 6px;
-    padding: 8px 12px;
-    position: absolute;
-    z-index: 1;
-    top: 125%;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
-    transition: opacity 0.3s;
-    font-size: 17px;
-    font-weight: 500;
-    font-family: 'Georgia', serif;
-    white-space: nowrap;
+    display: block;
   }
 
-  .tooltip-text::after {
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent transparent #000 transparent;
+  /* ===== Divider ===== */
+  .resume-divider {
+    border: 0;
+    border-top: 1px solid #e5e5e5;
+    margin: 2rem 0;
   }
 
-  .tooltip-link:hover .tooltip-text {
-    visibility: visible;
-    opacity: 1;
+  /* ===== Sections ===== */
+  .resume-section { margin-bottom: 0.5rem; }
+
+  /* News */
+  .resume-news {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  .resume-news li {
+    margin-bottom: 0.6rem;
+    padding-left: 0;
+  }
+  .news-date {
+    display: inline-block;
+    min-width: 5.5rem;
+    color: #666;
+    font-variant-numeric: tabular-nums;
+    font-size: 0.92rem;
+  }
+  .news-tag {
+    color: #555;
+    font-weight: 600;
+    margin-right: 0.25rem;
+    font-size: 0.92rem;
   }
 
-  /* LinkedIn and Substack brand colors */
-  .linkedin-tooltip .tooltip-text {
-    border-color: #0A66C2;
-    color: #0A66C2;
+  /* Publications */
+  .pub-item {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    align-items: flex-start;
+  }
+  .pub-thumb {
+    flex: 0 0 180px;
+  }
+  .pub-thumb img {
+    width: 180px;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    display: block;
+  }
+  .pub-text { flex: 1; min-width: 0; }
+  .pub-title {
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+    font-size: 1.02rem;
+  }
+  .pub-authors { margin-bottom: 0.15rem; font-size: 0.96rem; }
+  .pub-venue { margin-bottom: 0.4rem; font-size: 0.96rem; color: #555; }
+  .pub-abstract { font-size: 0.96rem; color: #333; margin-bottom: 0.35rem; }
+  .pub-links { font-size: 0.95rem; }
+
+  /* Experience / extracurricular / education shared */
+  .exp-item, .extra-item, .edu-item { margin-bottom: 1.1rem; }
+  .exp-headline, .extra-headline, .edu-headline {
+    margin-bottom: 0.2rem;
+    font-size: 1.02rem;
+  }
+  .exp-meta {
+    color: #777;
+    font-weight: 400;
+    font-size: 0.92rem;
+  }
+  .exp-body, .extra-body, .edu-body {
+    font-size: 0.97rem;
+    color: #333;
   }
 
-  .linkedin-tooltip .tooltip-text::after {
-    border-color: transparent transparent #0A66C2 transparent;
-  }
 
-  .substack-tooltip .tooltip-text {
-    border-color: #FF6719;
-    color: #FF6719;
+  /* Writing */
+  .writing-intro { margin-bottom: 0.6rem; }
+  .writing-list {
+    padding-left: 1.2rem;
+    margin: 0;
   }
+  .writing-list li { margin-bottom: 0.35rem; }
 
-  .substack-tooltip .tooltip-text::after {
-    border-color: transparent transparent #FF6719 transparent;
+  /* Awards */
+  .awards-list {
+    padding-left: 1.2rem;
+    margin: 0;
   }
+  .awards-list li { margin-bottom: 0.35rem; }
 
-  .text-center {
-    text-align: center; /* Centers the icons in the div */
+  /* Footer */
+  .resume-footer {
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+    text-align: center;
+    color: #888;
+    font-size: 0.88rem;
+  }
+  .resume-footer p { margin: 0; }
+
+  /* ===== Mobile ===== */
+  @media (max-width: 720px) {
+    .resume { padding: 0.5rem 1rem 2rem; font-size: 0.98rem; }
+    .resume-header {
+      flex-direction: column-reverse;
+      gap: 1rem;
+      align-items: center;
+      text-align: left;
+    }
+    .resume-header-photo { flex: 0 0 auto; }
+    .resume-header-photo img { width: 140px; height: 140px; margin: 0 auto; }
+    .resume-name { font-size: 1.85rem; text-align: center; }
+    .resume-intro { text-align: left; }
+    .resume-contact { text-align: center; }
+    .pub-item { flex-direction: column; gap: 0.75rem; }
+    .pub-thumb { flex: 0 0 auto; }
+    .pub-thumb img { width: 100%; max-width: 320px; }
+    .news-date { min-width: auto; margin-right: 0.4rem; }
   }
 </style>
-
-<!-- <div class="container">
-  <div class="row justify-content-center">
-    <div class="col-md-12 text-center mb-4">
-      <img src="assets/images/pp.jpeg" alt="Nikhil Anand" class="img-fluid custom-img">
-    </div>
-  </div>
-  <div class="row justify-content-center">
-    <div class="col-md-8">
-      <p>Hi! I'm Nikhil, a student at IIT Madras. I'm interested in AI Research, and I was fortunate to do an internship at Adobe Research in 2024 in the NLP team. I will join full-time as a Research Associate in 2025.</p>
-      <p>I'm doing my undergrad at IIT Madras (BTech in Bioengineering and MTech in Data Science). My thesis is based on using Activation Steering to improve contextual faithfulness in LLMs.</p>
-    </div>
-  </div>
-</div>
-
-<style>
-  .custom-img {
-    max-width: 50%; /* Adjust as needed */
-    height: auto;
-  }
-</style> -->
